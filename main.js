@@ -36,4 +36,4 @@ const CheckerBoard = (props) => {
     return React.createElement('div', null, arrayOfRows )
 }
     
-ReactDOM.render(CheckerBoard(), document.getElementById("checkerboard"));
+ReactDOM.render(React.createElement(CheckerBoard), document.getElementById("checkerboard"));
